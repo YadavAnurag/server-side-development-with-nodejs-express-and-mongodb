@@ -1,0 +1,15 @@
+1.
+javascript support ->
+
+1. first class function
+    function is treated as any variable
+2. closures
+    if inner function remain in execution while outer function done execution, inner function still have access of outer function
+
+2.
+Patch acceptable -> npm install express@"~4.0.0"
+minor version acceptable -> npm install express@"^4.0.0"
+major version accpetable -> npm install express
+
+
+
