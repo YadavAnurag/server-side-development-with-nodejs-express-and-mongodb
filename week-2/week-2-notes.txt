@@ -1,0 +1,16 @@
+
+Week-2
+
+MongoDB-
+    to start mongod interaction-
+    1. go the folder where you want to store mongodb data, create sub-folder named data
+    2. open cmd
+    3. mongod --dbpath=data --bind_ip 127.0.0.1
+    4. start mongo REPL from any dir using command- mongo
+
+
+    ObjectID(12 bytes)
+    unixTimestamp(4 bytes) + machineId(3 bytes) + processId(2 bytes) + increment(3 bytes)
+
+    var id = new ObjectId();
+    id.getTimestamp();
