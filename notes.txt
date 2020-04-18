@@ -13,3 +13,12 @@ major version accpetable -> npm install express
 
 
 
+
+Week-2
+
+MongoDB-
+    to start mongod interaction-
+    1. go the folder where you want to store mongodb data, create sub-folder named data
+    2. open cmd
+    3. mongod --dbpath=data --bind_ip 127.0.0.1
+
